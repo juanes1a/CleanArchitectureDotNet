@@ -1,4 +1,4 @@
-﻿namespace model.movie
+﻿namespace Model.Movie
 {
     public class Movie
     {

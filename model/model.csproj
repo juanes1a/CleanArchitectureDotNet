@@ -7,8 +7,8 @@
     <ProjectGuid>{687F9151-3FCB-46DA-AE76-F9C47E217C5F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>model</RootNamespace>
-    <AssemblyName>model</AssemblyName>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="movie\gateways\MovieRepository.cs" />
-    <Compile Include="movie\Movie.cs" />
+    <Compile Include="Movie\Gateways\MovieRepository.cs" />
+    <Compile Include="Movie\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

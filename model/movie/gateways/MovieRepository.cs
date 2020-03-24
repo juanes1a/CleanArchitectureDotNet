@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace model.movie.gateways
+﻿namespace Model.Movie.Gateways
 {
+    using System.Collections.Generic;
+
+
     public interface MovieRepository
     {
         List<Movie> getAllMovies();
